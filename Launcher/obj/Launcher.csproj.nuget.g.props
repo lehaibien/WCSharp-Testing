@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\mouse\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\mouse\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Array.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Array.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Array.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Array.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Boolean.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Boolean.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Boolean.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Boolean.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Char.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Char.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Char.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Char.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Dictionary.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Dictionary.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\Dictionary.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\Dictionary.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\EqualityComparer.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\EqualityComparer.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\EqualityComparer.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\EqualityComparer.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\HashSet.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\HashSet.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\HashSet.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\HashSet.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\LinkedList.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\LinkedList.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\LinkedList.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\LinkedList.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Linq.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Linq.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\Linq.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\Linq.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\List.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\List.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\List.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\List.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Queue.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Queue.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\Queue.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\Queue.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\SortedSet.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\SortedSet.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\SortedSet.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\SortedSet.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Stack.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Collections\Stack.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Collections\Stack.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Collections\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Collections\Stack.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Common.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Common.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Common.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Common.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Console.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Console.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Console.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Console.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Convert.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Convert.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Convert.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Convert.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Core.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Core.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Core.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Core.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\DateTime.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\DateTime.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\DateTime.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\DateTime.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Delegate.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Delegate.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Delegate.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Delegate.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Enum.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Enum.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Enum.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Enum.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Exception.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Exception.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Exception.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Exception.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Globalization\Globalization.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Globalization\Globalization.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Globalization\Globalization.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Globalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Globalization\Globalization.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\IO\File.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\IO\File.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\IO\File.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\IO\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\IO\File.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Interfaces.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Interfaces.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Interfaces.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Interfaces.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Math.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Math.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Math.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Math.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Natives.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Natives.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Natives.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Natives.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Number.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Number.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Number.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Number.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Complex.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Complex.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Complex.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Complex.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\HashCodeHelper.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\HashCodeHelper.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\HashCodeHelper.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\HashCodeHelper.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Matrix3x2.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Matrix3x2.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Matrix3x2.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Matrix3x2.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Matrix4x4.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Matrix4x4.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Matrix4x4.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Matrix4x4.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Plane.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Plane.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Plane.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Plane.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Quaternion.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Quaternion.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Quaternion.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Quaternion.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector2.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector2.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Vector2.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Vector2.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector3.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector3.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Vector3.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Vector3.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector4.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Numerics\Vector4.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Numerics\Vector4.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Numerics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Numerics\Vector4.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Random.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Random.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Random.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Random.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Reflection\Assembly.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Reflection\Assembly.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Reflection\Assembly.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Reflection\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Reflection\Assembly.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\String.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\String.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\String.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\String.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Text\StringBuilder.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Text\StringBuilder.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Text\StringBuilder.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Text\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Text\StringBuilder.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Task.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Task.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Threading\Task.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Threading\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Threading\Task.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Thread.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Thread.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Threading\Thread.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Threading\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Threading\Thread.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Timer.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Threading\Timer.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Threading\Timer.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\Threading\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Threading\Timer.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\TimeSpan.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\TimeSpan.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\TimeSpan.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\TimeSpan.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Type.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Type.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Type.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Type.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Utilities.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\CoreSystem\Utilities.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>CoreSystem\Utilities.lua</TargetPath>
+      <DestinationSubDirectory>CoreSystem\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>CoreSystem\Utilities.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\PriorityQueue.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\PriorityQueue.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>PriorityQueue.lua</TargetPath>
+      <Private>True</Private>
+      <Link>PriorityQueue.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\SortedDictionary.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\SortedDictionary.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SortedDictionary.lua</TargetPath>
+      <Private>True</Private>
+      <Link>SortedDictionary.lua</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\SortedList.lua" Condition="Exists('$(NuGetPackageRoot)war3net.csharplua.coresystem\1.7.18\contentFiles\any\netstandard1.0\SortedList.lua')">
+      <NuGetPackageId>War3Net.CSharpLua.CoreSystem</NuGetPackageId>
+      <NuGetPackageVersion>1.7.18</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SortedList.lua</TargetPath>
+      <Private>True</Private>
+      <Link>SortedList.lua</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\mouse\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\mouse\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>

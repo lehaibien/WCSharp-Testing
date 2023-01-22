@@ -1,0 +1,348 @@
+﻿STRING 1
+{
+Player 1
+}
+
+STRING 2
+{
+Force 1
+}
+
+STRING 3
+// Units: H001 (Dark Knight), Name (Name)
+{
+Dark Knight
+}
+
+STRING 4
+// Units: H001 (Dark Knight), Tip (Tooltip - Basic)
+{
+Summon |cffffcc00D|rark Knight
+}
+
+STRING 6
+{
+Test
+}
+
+STRING 7
+{
+Any
+}
+
+STRING 8
+{
+Nondescript
+}
+
+STRING 9
+{
+Unknown
+}
+
+STRING 10
+// Units: H000 (Dark Wizard), Name (Name)
+{
+Dark Wizard
+}
+
+STRING 11
+// Units: H000 (Dark Wizard), Awakentip (Tooltip - Awaken)
+{
+Revive |cffffcc00D|rark Wizard
+}
+
+STRING 12
+// Units: H000 (Dark Wizard), Tip (Tooltip - Basic)
+{
+Summon |cffffcc00D|rark Wizard
+}
+
+STRING 13
+// Units: H000 (Dark Wizard), Ubertip (Tooltip - Extended)
+{
+One of the strongest wizards ever been on Earth. |n|n|cffffcc00Attacks land and air units.|r
+}
+
+STRING 14
+// Units: H000 (Dark Wizard), Revivetip (Tooltip - Revive)
+{
+Revive |cffffcc00D|rark Wizard
+}
+
+STRING 15
+// Units: H001 (Dark Knight), Hotkey (Hotkey)
+{
+D
+}
+
+STRING 16
+// Units: H001 (Dark Knight), Awakentip (Tooltip - Awaken)
+{
+Revive |cffffcc00D|rark Knight
+}
+
+STRING 17
+// Units: H001 (Dark Knight), Revivetip (Tooltip - Revive)
+{
+Revive |cffffcc00D|rark Knight
+}
+
+STRING 18
+// Units: H001 (Dark Knight), Ubertip (Tooltip - Extended)
+{
+The most strongest knight in all realm. |n|n|cffffcc00Attacks land units.|r
+}
+
+STRING 19
+// Abilities: TP00 (Teleport), Name (Name)
+{
+Teleport
+}
+
+STRING 20
+// Abilities: A000 (Lightning Strike), Name (Name)
+{
+Lightning Strike
+}
+
+STRING 21
+// Buffs/Effects: B000 (Lightning Strike), EditorName (Name (Editor Only))
+{
+Lightning Strike
+}
+
+STRING 23
+// Abilities: A002 (Frost Aura), Name (Name)
+{
+Frost Aura
+}
+
+STRING 24
+// Buffs/Effects: B001 (Frost Aura), EditorName (Name (Editor Only))
+{
+Frost Aura
+}
+
+STRING 25
+// Buffs/Effects: B001 (Frost Aura), Bufftip (Tooltip)
+{
+Frost Aura
+}
+
+STRING 26
+// Buffs/Effects: B001 (Frost Aura), Buffubertip (Tooltip - Extended)
+{
+This unit is under the effects of Frost Aura; it has an decreased movement speed.
+}
+
+STRING 27
+// Abilities: A002 (Frost Aura), Researchtip (Tooltip - Learn)
+{
+Learn Frost |cffffcc00A|rura - [|cffffcc00Level %d|r]
+}
+
+STRING 28
+// Abilities: A002 (Frost Aura), Researchubertip (Tooltip - Learn - Extended)
+{
+Decreases the movement speed of nearby enemy units. |n|n|cffffcc00Level 1|r > -25% movement
+}
+
+STRING 29
+// Abilities: A002 (Frost Aura), Tip (Tooltip - Normal)
+{
+Frost Aura - [|cffffcc00Level 1|r]
+}
+
+STRING 30
+// Abilities: A002 (Frost Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Decreases the movement speed of nearby enemy units by 25%.
+}
+
+STRING 31
+// Abilities: A002 (Frost Aura), Researchhotkey (Hotkey - Learn)
+{
+A
+}
+
+STRING 34
+// Abilities: A001 (Lightning Pole), Name (Name)
+{
+Lightning Pole
+}
+
+STRING 37
+// Abilities: A001 (Lightning Pole), Researchtip (Tooltip - Learn)
+{
+Learn Lightning |cffffcc00P|role - [|cffffcc00Level %d|r]
+}
+
+STRING 38
+// Abilities: A001 (Lightning Pole), Researchubertip (Tooltip - Learn - Extended)
+{
+A wave of totem that deal damage to enemy on its way.
+}
+
+STRING 39
+// Abilities: A001 (Lightning Pole), Tip (Tooltip - Normal)
+{
+Lightning |cffffcc00P|role
+}
+
+STRING 40
+// Abilities: A001 (Lightning Pole), Ubertip (Tooltip - Normal - Extended)
+{
+A wave of totem that deal damage to enemy on its way.
+}
+
+STRING 41
+// Abilities: A000 (Lightning Strike), Researchhotkey (Hotkey - Learn)
+{
+E
+}
+
+STRING 42
+// Abilities: A000 (Lightning Strike), Hotkey (Hotkey - Normal)
+{
+E
+}
+
+STRING 45
+// Abilities: A000 (Lightning Strike), Researchtip (Tooltip - Learn)
+{
+Learn |cff000080Lightning Strike|r - [|cffffcc00Level %d|r]
+}
+
+STRING 46
+// Abilities: A000 (Lightning Strike), Tip (Tooltip - Normal)
+{
+|cff000080Lightning Strike|r
+}
+
+STRING 47
+// Abilities: A000 (Lightning Strike), Researchubertip (Tooltip - Learn - Extended)
+{
+Cast on enemy a lightning that deals damage for 3 seconds after 1 seconds
+}
+
+STRING 48
+// Abilities: A000 (Lightning Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Cast on enemy a lightning that deals damage for 3 seconds after 1 seconds
+}
+
+STRING 49
+// Abilities: A001 (Lightning Pole), Researchhotkey (Hotkey - Learn)
+{
+Q
+}
+
+STRING 50
+// Abilities: A001 (Lightning Pole), Hotkey (Hotkey - Normal)
+{
+Q
+}
+
+STRING 51
+// Abilities: TP00 (Teleport), Researchhotkey (Hotkey - Learn)
+{
+W
+}
+
+STRING 52
+// Abilities: TP00 (Teleport), Hotkey (Hotkey - Normal)
+{
+W
+}
+
+STRING 56
+// Abilities: A004 (Item Damage Bonus), EditorSuffix (Editor Suffix)
+{
+(+500)
+}
+
+STRING 57
+// Items: I000 (Infinity Sword), Description (Description)
+{
+Boosts attack damage by 500.
+}
+
+STRING 58
+// Items: I000 (Infinity Sword), Tip (Tooltip - Basic)
+{
+Purchase Infinity |cffffcc00S|rword
+}
+
+STRING 59
+// Items: I000 (Infinity Sword), Ubertip (Tooltip - Extended)
+{
+Increases the attack damage of the Hero by 500 when worn.
+}
+
+STRING 61
+// Abilities: A005 (Resurrection), Name (Name)
+{
+Resurrection
+}
+
+STRING 62
+// Abilities: A005 (Resurrection), Researchhotkey (Hotkey - Learn)
+{
+R
+}
+
+STRING 63
+// Abilities: A005 (Resurrection), Hotkey (Hotkey - Normal)
+{
+R
+}
+
+STRING 64
+// Abilities: A005 (Resurrection), Researchtip (Tooltip - Learn)
+{
+Learn |cffffcc00R|resurrection
+}
+
+STRING 65
+// Abilities: A005 (Resurrection), Tip (Tooltip - Normal)
+{
+|cffffcc00R|resurrection
+}
+
+STRING 66
+// Abilities: A005 (Resurrection), Researchubertip (Tooltip - Learn - Extended)
+{
+Brings back to life the corpses of 1 random  friendly nearby units and disable Frost Aura for 10 seconds.
+}
+
+STRING 67
+// Abilities: A005 (Resurrection), Ubertip (Tooltip - Normal - Extended)
+{
+Brings back to life the corpses of 1 random  friendly nearby units and disable Frost Aura for 10 seconds.
+}
+
+STRING 68
+// Items: I001 (Infinity Shield), Name (Name)
+{
+Infinity Shield
+}
+
+STRING 69
+// Abilities: A003 (Infinity Shield Armor Bonus), Name (Name)
+{
+Infinity Shield Armor Bonus
+}
+
+STRING 70
+// Abilities: A003 (Infinity Shield Armor Bonus), EditorSuffix (Editor Suffix)
+{
+(+15)
+}
+
+STRING 71
+// Items: I000 (Infinity Sword), Name (Name)
+{
+Infinity Sword
+}
+

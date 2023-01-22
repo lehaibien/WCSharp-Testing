@@ -1,0 +1,599 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "War3Api.Blizzard/1.33.0": {
+        "type": "package",
+        "dependencies": {
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/War3Api.Blizzard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/War3Api.Blizzard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "War3Api.Common/1.33.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/War3Api.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/War3Api.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Buffs/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Dummies": "2.1.0",
+          "WCSharp.Events": "2.1.0",
+          "WCSharp.Shared": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Buffs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Buffs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.DateTime/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Events": "2.1.0",
+          "WCSharp.Shared": "2.1.0",
+          "WCSharp.Sync": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.DateTime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.DateTime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Dummies/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Events": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Dummies.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Dummies.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Effects/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Events": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Effects.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Effects.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Events/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Shared": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Events.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Events.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Json/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Shared": "2.1.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Knockbacks/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Effects": "2.1.0",
+          "WCSharp.Events": "2.1.0",
+          "WCSharp.Shared": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Knockbacks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Knockbacks.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Lightnings/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Events": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Lightnings.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Lightnings.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Missiles/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Events": "2.1.0",
+          "WCSharp.Shared": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Missiles.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Missiles.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.SaveLoad/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Json": "2.1.1",
+          "WCSharp.Shared": "2.1.0",
+          "WCSharp.Sync": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.SaveLoad.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.SaveLoad.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Shared/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WCSharp.Sync/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "WCSharp.Json": "2.1.0",
+          "WCSharp.Shared": "2.1.0",
+          "War3Api.Blizzard": "1.33.0",
+          "War3Api.Common": "1.33.0"
+        },
+        "compile": {
+          "lib/net6.0/WCSharp.Sync.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/WCSharp.Sync.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "War3Api.Blizzard/1.33.0": {
+      "sha512": "/Jg0EPQjktSjet5e623y1LERVZqwhF9B+3tl2ak+uaT6Ix7LhZALg3jW3+0FivbqPNcZx/40HNlDcVeBrcOyDQ==",
+      "type": "package",
+      "path": "war3api.blizzard/1.33.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/War3Api.Blizzard.dll",
+        "lib/netstandard1.0/War3Api.Blizzard.xml",
+        "lib/netstandard2.0/War3Api.Blizzard.dll",
+        "lib/netstandard2.0/War3Api.Blizzard.xml",
+        "war3api.blizzard.1.33.0.nupkg.sha512",
+        "war3api.blizzard.nuspec"
+      ]
+    },
+    "War3Api.Common/1.33.0": {
+      "sha512": "fCmJAjMX9cCYW9bQ55pcID58iTwHsX6y/IpWY4l5hNy/SuXBTzGOI0nI9L+g/qK4GLzf/QPDWQ58TYerRgKQvg==",
+      "type": "package",
+      "path": "war3api.common/1.33.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/War3Api.Common.dll",
+        "lib/netstandard1.0/War3Api.Common.xml",
+        "lib/netstandard2.0/War3Api.Common.dll",
+        "lib/netstandard2.0/War3Api.Common.xml",
+        "war3api.common.1.33.0.nupkg.sha512",
+        "war3api.common.nuspec"
+      ]
+    },
+    "WCSharp.Buffs/2.1.0": {
+      "sha512": "Ut6UZHVyXAvG5fdxHg3xyJi5mmzAg6AB9t37INx+6xFn5A9YJvNn+jfJ7y1BL1d8jx1zTyZ9aQTbk7VyrKoqXg==",
+      "type": "package",
+      "path": "wcsharp.buffs/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Buffs.dll",
+        "lib/net6.0/WCSharp.Buffs.xml",
+        "wcsharp.buffs.2.1.0.nupkg.sha512",
+        "wcsharp.buffs.nuspec"
+      ]
+    },
+    "WCSharp.DateTime/2.1.0": {
+      "sha512": "Nvr3vAJbQaJhcxLyxYcrMD4MEqmQkYQ3SBrtGvm204dufLj+TCF6N9rgWGFW5V48mfB3MkFBPCnOOmxszGBqTQ==",
+      "type": "package",
+      "path": "wcsharp.datetime/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.DateTime.dll",
+        "lib/net6.0/WCSharp.DateTime.xml",
+        "wcsharp.datetime.2.1.0.nupkg.sha512",
+        "wcsharp.datetime.nuspec"
+      ]
+    },
+    "WCSharp.Dummies/2.1.0": {
+      "sha512": "ixOhwrVjxwHP8vHkxYpURC75V8d3mRipFm91q+DyMP6CDTzxh9OWAvkhBek9GIbMHNgLY9dSbiTrxEjcJ0yJmw==",
+      "type": "package",
+      "path": "wcsharp.dummies/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Dummies.dll",
+        "lib/net6.0/WCSharp.Dummies.xml",
+        "wcsharp.dummies.2.1.0.nupkg.sha512",
+        "wcsharp.dummies.nuspec"
+      ]
+    },
+    "WCSharp.Effects/2.1.0": {
+      "sha512": "LtNfwyXcS3ocR52wZAREPy3hvS2c3vp7hvOZ1eRjXnsW9Qu6z4vFqtD5nZUlsWDWPjikW3/8VPDvMHfenwdyjQ==",
+      "type": "package",
+      "path": "wcsharp.effects/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Effects.dll",
+        "lib/net6.0/WCSharp.Effects.xml",
+        "wcsharp.effects.2.1.0.nupkg.sha512",
+        "wcsharp.effects.nuspec"
+      ]
+    },
+    "WCSharp.Events/2.1.0": {
+      "sha512": "5VdSRgWzN2TCE855QvOqwjOzwpTWfFP5Z1/U/Pi1lH1YE91kJXkhX1SPTudilvn6zgve+N9hcw9pVssk9wFtPg==",
+      "type": "package",
+      "path": "wcsharp.events/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Events.dll",
+        "lib/net6.0/WCSharp.Events.xml",
+        "wcsharp.events.2.1.0.nupkg.sha512",
+        "wcsharp.events.nuspec"
+      ]
+    },
+    "WCSharp.Json/2.1.1": {
+      "sha512": "mQ104ZvqHz6jOtjpDQ3FAlRtrAI/hzFdd9a1cVPxAtYGwYjG6QzSGVSCsOX0G7NQroiPpGETF8pHfW5B8PxIRQ==",
+      "type": "package",
+      "path": "wcsharp.json/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Json.dll",
+        "lib/net6.0/WCSharp.Json.xml",
+        "wcsharp.json.2.1.1.nupkg.sha512",
+        "wcsharp.json.nuspec"
+      ]
+    },
+    "WCSharp.Knockbacks/2.1.0": {
+      "sha512": "dleDpkdZZUMTqek5hq3uLWRLLP/q0eAgV/vl6CjmCfROg3/aCUV539nH2/ccdeR9zpg9hOe9cJM6M7NrfMC6dA==",
+      "type": "package",
+      "path": "wcsharp.knockbacks/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Knockbacks.dll",
+        "lib/net6.0/WCSharp.Knockbacks.xml",
+        "wcsharp.knockbacks.2.1.0.nupkg.sha512",
+        "wcsharp.knockbacks.nuspec"
+      ]
+    },
+    "WCSharp.Lightnings/2.1.0": {
+      "sha512": "7eVjoeUz606hFloLn5m5hwBcIr/i/V8dRV4h85tC5Mk3QwMrQIr9hT9JZOC6xJoPnnNXTDWd68Gh2jFOzElK6Q==",
+      "type": "package",
+      "path": "wcsharp.lightnings/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Lightnings.dll",
+        "lib/net6.0/WCSharp.Lightnings.xml",
+        "wcsharp.lightnings.2.1.0.nupkg.sha512",
+        "wcsharp.lightnings.nuspec"
+      ]
+    },
+    "WCSharp.Missiles/2.1.0": {
+      "sha512": "SVCOFpB1L1yYq/At6ybsF0cZgyYW53BIr/awgsxcD5OR0jq3sEn+bLzriSUfV5BVOouUrLmKV9weVQIiZGcT3g==",
+      "type": "package",
+      "path": "wcsharp.missiles/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Missiles.dll",
+        "lib/net6.0/WCSharp.Missiles.xml",
+        "wcsharp.missiles.2.1.0.nupkg.sha512",
+        "wcsharp.missiles.nuspec"
+      ]
+    },
+    "WCSharp.SaveLoad/2.1.1": {
+      "sha512": "hamUgQIH5PZOJf6ACkXQ3OOT9eFP2ukSqXoW7Nq92fMzn8wtGpdCvL/Gi6TLbEZLz/FS/LsLoEvpr4VEO7X5zg==",
+      "type": "package",
+      "path": "wcsharp.saveload/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.SaveLoad.dll",
+        "lib/net6.0/WCSharp.SaveLoad.xml",
+        "wcsharp.saveload.2.1.1.nupkg.sha512",
+        "wcsharp.saveload.nuspec"
+      ]
+    },
+    "WCSharp.Shared/2.1.0": {
+      "sha512": "bT5YhZKASV2zCJkCNlEG7CJfCjlvBRiqjb419W+YFVyf5JRZTQsZrR9VTrVzTXgc2jXivVQzZMOAP5wAEcv/JQ==",
+      "type": "package",
+      "path": "wcsharp.shared/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Shared.dll",
+        "lib/net6.0/WCSharp.Shared.xml",
+        "wcsharp.shared.2.1.0.nupkg.sha512",
+        "wcsharp.shared.nuspec"
+      ]
+    },
+    "WCSharp.Sync/2.1.0": {
+      "sha512": "YkqjMLKkBO2tHeSeEY5oZ0idTR/w9XzHYwJ84mUbnEvpOPIQXuoMEdQGOmZS+CJ7U6rDiSD24+DNqkpY0oqUxA==",
+      "type": "package",
+      "path": "wcsharp.sync/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/WCSharp.Sync.dll",
+        "lib/net6.0/WCSharp.Sync.xml",
+        "wcsharp.sync.2.1.0.nupkg.sha512",
+        "wcsharp.sync.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "WCSharp.Buffs >= 2.1.0",
+      "WCSharp.DateTime >= 2.1.0",
+      "WCSharp.Dummies >= 2.1.0",
+      "WCSharp.Effects >= 2.1.0",
+      "WCSharp.Events >= 2.1.0",
+      "WCSharp.Json >= 2.1.1",
+      "WCSharp.Knockbacks >= 2.1.0",
+      "WCSharp.Lightnings >= 2.1.0",
+      "WCSharp.Missiles >= 2.1.0",
+      "WCSharp.SaveLoad >= 2.1.1",
+      "WCSharp.Shared >= 2.1.0",
+      "WCSharp.Sync >= 2.1.0",
+      "War3Api.Blizzard >= 1.33.0",
+      "War3Api.Common >= 1.33.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mouse\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mouse\\Desktop\\Workspace\\WCSharpTemplate\\Source\\Source.csproj",
+      "projectName": "Source",
+      "projectPath": "C:\\Users\\mouse\\Desktop\\Workspace\\WCSharpTemplate\\Source\\Source.csproj",
+      "packagesPath": "C:\\Users\\mouse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mouse\\Desktop\\Workspace\\WCSharpTemplate\\Source\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mouse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "WCSharp.Buffs": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.DateTime": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Dummies": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Effects": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Events": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Json": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "WCSharp.Knockbacks": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Lightnings": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Missiles": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.SaveLoad": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "WCSharp.Shared": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WCSharp.Sync": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "War3Api.Blizzard": {
+            "target": "Package",
+            "version": "[1.33.0, )"
+          },
+          "War3Api.Common": {
+            "target": "Package",
+            "version": "[1.33.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

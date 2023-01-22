@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "BCIza+esTo4vF5my27j4RB2Nz1xxedNREjNabvlau+RBPW7iyDh0h13QyQDatWe9105p6b/9um8CKfR4X30ZPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mouse\\Desktop\\Workspace\\WCSharpTemplate\\Source\\Source.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mouse\\.nuget\\packages\\war3api.blizzard\\1.33.0\\war3api.blizzard.1.33.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\war3api.common\\1.33.0\\war3api.common.1.33.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.buffs\\2.1.0\\wcsharp.buffs.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.datetime\\2.1.0\\wcsharp.datetime.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.dummies\\2.1.0\\wcsharp.dummies.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.effects\\2.1.0\\wcsharp.effects.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.events\\2.1.0\\wcsharp.events.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.json\\2.1.1\\wcsharp.json.2.1.1.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.knockbacks\\2.1.0\\wcsharp.knockbacks.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.lightnings\\2.1.0\\wcsharp.lightnings.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.missiles\\2.1.0\\wcsharp.missiles.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.saveload\\2.1.1\\wcsharp.saveload.2.1.1.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.shared\\2.1.0\\wcsharp.shared.2.1.0.nupkg.sha512",
+    "C:\\Users\\mouse\\.nuget\\packages\\wcsharp.sync\\2.1.0\\wcsharp.sync.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
